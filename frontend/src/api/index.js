@@ -182,6 +182,7 @@ class Api {
         cooking_time,
         text,
         ingredients,
+        is_favorited: false,
       }),
     }).then(this.checkResponse);
   }
